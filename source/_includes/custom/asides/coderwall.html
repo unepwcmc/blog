@@ -1,0 +1,31 @@
+{% if site.coderwall_users %}
+<section>
+  <h1>Team Coderwall Badges</h1>
+  <p id="coderwall-root">
+    <script type="text/javascript">
+      function append_coderwall(args){
+        var badges = args["data"]["badges"];
+        var wall = '';
+        for ( var i = 0; i < badges.length; i++ ) {
+          var badgeEl = document.getElementById(badges[i]["name"]);
+          if (badgeEl === null){
+            var badgeEl = document.createElement('img');
+            badgeEl.id = badges[i]["name"];
+            badgeEl.src = badges[i]["badge"];
+            badgeEl.alt = badges[i]["name"];
+            badgeEl.title = badges[i]["name"] + ' - ' + badges[i]["description"];
+            var badgeLink = document.createElement('a');
+            badgeLink.href = "http://coderwall.com/team/unep-wcmc/";
+            badgeLink.appendChild(badgeEl);
+            document.getElementById('coderwall-root').appendChild(badgeLink);
+          }
+        }
+      }
+    </script>
+
+    {% for coderwall_user in site.coderwall_users %}
+      <script src="http://coderwall.com/{{coderwall_user}}.json?callback=append_coderwall"></script>
+    {% endfor %}
+  </p>
+</section>
+{% endif %}
