@@ -1,36 +1,36 @@
 # Informatics blog howto
 
-We're using the blog deploying strategy described here: http://octopress.org/docs/deploying/github/ under "With Github Project pages (gh-pages)"
+We're using the blog deploying strategy referred to as ["With Github Project pages (gh-pages)"](http://octopress.org/docs/deploying/github/)
 
 ## Getting started
 
 In order to publish to Informatics UNEP-WCMC blog, please start by cloning this directory:
 
-  git clone git@github.com:unepwcmc/blog-src.git
+    git clone git@github.com:unepwcmc/blog-src.git
 
 
-Now there must be a simpler way to go from there, but while I haven't found out please foolow these steps: 
+__Now there must be a simpler way to go from there, but while I haven't found out please follow these steps:__ 
 
 Next, you need to configure octopress so that it knows to deploy the blog to the 'blog' repo gh-pages branch:
 
-  cd blog-src
-  rake setup_github_pages
+    cd blog-src
+    rake setup_github_pages
 
 When asked for a repository url, enter: git@github.com:unepwcmc/blog.git
 
 Now this might have the side effect of changing the blog url in _config.tml file -- please open that file and make sure it has:
 
-  url: http://informatics.unep-wcmc.org/blog
+    url: http://informatics.unep-wcmc.org/blog
 
 ## Writing a new post
 
-  rake new_post["my great new post"]
+    rake new_post["my great new post"]
 
 This command will create the file for you and place it in the octopress date-driven directory structure. You can then edit this file using plain html / markdown.
 
 ## Previewing
 
-  rake preview
+    rake preview
 
 This starts a local server, you can preview the blog at localhost:4000/blog
 
@@ -38,15 +38,15 @@ This starts a local server, you can preview the blog at localhost:4000/blog
 
 After any changes to the blog you can publish them to the 'blog' repo using:
 
-  rake generate
-  rake deploy
+    rake generate
+    rake deploy
 
 However, that does not push to 'blog-src', you need to do that manually:
 
-  cd blog-src
-  git add .
-  git commit -m "my commit msg"
-  git push origin source
+    cd blog-src
+    git add .
+    git commit -m "my commit msg"
+    git push origin source
 
 
 ## License
