@@ -1,32 +1,30 @@
 # Informatics blog howto
 
-We're using the blog deploying strategy referred to as ["With Github Project pages (gh-pages)"](http://octopress.org/docs/deploying/github/)
+The source of the blog is kept in the 'source' branch, and the generated pages are published to the 'gh-pages' branch. This strategy is referred to as ["With Github Project pages (gh-pages)"](http://octopress.org/docs/deploying/github/)
 
 ## Getting started
 
 In order to publish to Informatics UNEP-WCMC blog, please start by cloning this directory:
 
-    git clone git@github.com:unepwcmc/blog-src.git
+    git clone git@github.com:unepwcmc/blog.git
 
+Next, you need to run a command to set up deployment:
 
-__Now there must be a simpler way to go from there, but while I haven't found out please follow these steps:__ 
-
-Next, you need to configure octopress so that it knows to deploy the blog to the 'blog' repo gh-pages branch:
-
-    cd blog-src
     rake setup_github_pages
 
-When asked for a repository url, enter: git@github.com:unepwcmc/blog.git
+When it asks you for url repo, enter: git@github.com:unepwcmc/blog (without the ending .git)
 
-Now this might have the side effect of changing the blog url in _config.tml file -- please open that file and make sure it has:
+Due to an [issue in octopress](https://github.com/imathis/octopress/issues/1025) you now need to revert the changes to blog url configuration:
 
-    url: http://informatics.unep-wcmc.org/blog
+    git checkout _config.yml
 
 ## Writing a new post
 
     rake new_post["my great new post"]
 
-This command will create the file for you and place it in the octopress date-driven directory structure. You can then edit this file using plain html / markdown.
+This command will create the new post file and place it in the octopress date-driven directory structure. You can then edit this file using plain html / markdown.
+
+There is a similar command to create a new page.
 
 ## Previewing
 
@@ -36,18 +34,16 @@ This starts a local server, you can preview the blog at localhost:4000/blog
 
 ## Publishing vs pushing
 
-After any changes to the blog you can publish them to the 'blog' repo using:
+After any changes to the blog you can publish them to [the   repo using:
 
     rake generate
     rake deploy
 
-However, that does not push to 'blog-src', you need to do that manually:
+However, you still need to push the source:
 
-    cd blog-src
     git add .
     git commit -m "my commit msg"
     git push origin source
-
 
 ## License
 (The MIT License)
