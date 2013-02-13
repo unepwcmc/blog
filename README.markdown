@@ -1,24 +1,52 @@
-## What is Octopress?
+# Informatics blog howto
 
-Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
+We're using the blog deploying strategy referred to as ["With Github Project pages (gh-pages)"](http://octopress.org/docs/deploying/github/)
 
-1. **Octopress sports a clean responsive theme** written in semantic HTML5, focused on readability and friendliness toward mobile devices.
-2. **Code blogging is easy and beautiful.** Embed code (with [Solarized](http://ethanschoonover.com/solarized) styling) in your posts from gists, jsFiddle or from your filesystem.
-3. **Third party integration is simple** with built-in support for Twitter, Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.
-4. **It's easy to use.** A collection of rake tasks simplifies development and makes deploying a cinch.
-5. **Ships with great plug-ins** some original and others from the Jekyll community &mdash; tested and improved.
+## Getting started
 
+In order to publish to Informatics UNEP-WCMC blog, please start by cloning this directory:
 
-## Documentation
-
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
+    git clone git@github.com:unepwcmc/blog-src.git
 
 
-## Contributing
+__Now there must be a simpler way to go from there, but while I haven't found out please follow these steps:__ 
 
-[![Build Status](https://travis-ci.org/imathis/octopress.png?branch=master)](https://travis-ci.org/imathis/octopress)
+Next, you need to configure octopress so that it knows to deploy the blog to the 'blog' repo gh-pages branch:
 
-We love to see people contributing to Octopress, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic blogging needs, so some of your suggestions might not find their way into Octopress. For those ideas, we started a [list of 3rd party plug-ins](https://github.com/imathis/octopress/wiki/3rd-party-plugins), where you can link your own Octopress plug-in repositories. For the future, we're thinking about ways to easier add them them into our main releases.
+    cd blog-src
+    rake setup_github_pages
+
+When asked for a repository url, enter: git@github.com:unepwcmc/blog.git
+
+Now this might have the side effect of changing the blog url in _config.tml file -- please open that file and make sure it has:
+
+    url: http://informatics.unep-wcmc.org/blog
+
+## Writing a new post
+
+    rake new_post["my great new post"]
+
+This command will create the file for you and place it in the octopress date-driven directory structure. You can then edit this file using plain html / markdown.
+
+## Previewing
+
+    rake preview
+
+This starts a local server, you can preview the blog at localhost:4000/blog
+
+## Publishing vs pushing
+
+After any changes to the blog you can publish them to the 'blog' repo using:
+
+    rake generate
+    rake deploy
+
+However, that does not push to 'blog-src', you need to do that manually:
+
+    cd blog-src
+    git add .
+    git commit -m "my commit msg"
+    git push origin source
 
 
 ## License
@@ -32,7 +60,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-#### If you want to be awesome.
-- Proudly display the 'Powered by Octopress' credit in the footer.
-- Add your site to the Wiki so we can watch the community grow.
