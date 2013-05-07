@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Report from Kraków"
-date: 2013-05-07 10:00
+date: 2013-05-07 09:30
 comments: true
 categories: Kraków ACE! RailsGirls Railsberry
 author: Agnieszka Figiel
-published: false
 ---
 
 There's a good reason to visit Kraków any month of the year*, but this April was particularly abundant in tech events. During the two weeks of my stay there I was able to attend two international conferences and a workshop, all directly relevant to my work at WCMC. So here goes my mission report.
@@ -17,7 +16,7 @@ The theme of this year's edition of the Conference on Lean and Agile best practi
 
 <li><a href="http://vimeo.com/album/2358750/video/64714047">Paweł Brodziński - Portfolio Kanban</a>: visualising work on portfolio level and applying WIP limits helps avoid context switching and improves transparency.</li>
 
-<li><a href="http://vimeo.com/album/2358750/video/64706038">Andrea Provaglio - Dreaming</a>: good process ideas are not reserved to Toyota. I liked the Disney idea rooms and the proposition to keep a good proportion of "dream stories" in the project backlog.</li>
+<li><a href="http://vimeo.com/album/2358750/video/64706038">Andrea Provaglio - Dreaming</a>: good process ideas are not reserved to Toyota. I liked the Disney idea rooms and the proposition to keep a good proportion of "dreambits" in the project backlog.</li>
 
 <li><a href="http://vimeo.com/album/2358750/video/64714843">Chris McDermott - The Other Side of Kanban</a>: respect for people is a principle which underpins Kanban. Use the innovative capabilities of all people in an organisation.</li>
 
@@ -27,7 +26,7 @@ The theme of this year's edition of the Conference on Lean and Agile best practi
 {% img left /images/report_from_krakow/ace2013_board.jpg 250 I know about vs I'd like to learn about board %}
 {% img /images/report_from_krakow/ace2013_openspaces.jpg 250 Timetable of openspace sessions %}
 
-On both days there were open space sessions, where you could choose to join and leave discussions around previously announced topics. Unfortunately, I was disappointed to see many of the open spaces running in Polish. Shame to exclude many international guests this way. Topics would range from developer-oriented ("human factor in code reviews") to manager-oriented ("team motivation in a long running project"). My favourite was hosted by <a href="https://twitter.com/chrisvmcd">Chris McDermott</a>, where we discussed different aspects of respect in the lean coffee format. 
+On both days there were open space sessions, where you could choose to join and leave discussions around previously announced topics. Unfortunately, I was disappointed to see many of the open spaces running in Polish. It's a shame to exclude many international guests this way. Topics ranged from developer-oriented ("human factor in code reviews") to manager-oriented ("team motivation in a long running project"). My favourite was hosted by <a href="https://twitter.com/chrisvmcd">Chris McDermott</a>, where we discussed different aspects of respect in the <a href="http://limitedwipsociety.ning.com/page/lean-coffee">lean coffee</a> format.
 
 And BTW, the "5 why's" tshirt design sets the bar high for conference swag!
 
@@ -58,7 +57,7 @@ And BTW, the "5 why's" tshirt design sets the bar high for conference swag!
 
 <p>I gave a talk on the first day of the conference about PostgreSQL in context of the database of endangered species, which is one of the biggest projects we're working on at the moment at WCMC. I wanted to share my excitement about the advanced features of PostgreSQL that we applied to the taxonomic component of our database, namely recursive CTEs and windowing functions. Speaking in front of this amazing crowd was an ultimate adrenaline rush. I was extremely pleased with the reactions I received and the really good questions people asked afterwards.</p>
 
-<p>On both days of the conference there were lightning talk sessions, which were very rigorously timed by a team armed in a vuvuzela and a speaker-bazooka. Our own CRUG colleague Andrew France made it though!</p>
+<p>On both days of the conference there were lightning talk sessions, which were very rigorously timed by a team armed with a vuvuzela and a speaker-bazooka. Our own CRUG colleague Andrew France made it though!</p>
 
 <p>On the whole, the quality and diversity of Kraków-based events are increasing so rapidly that even as a native I cannot help but be in awe of the potential therein. Well done people!</p>
 
