@@ -38,7 +38,7 @@ And BTW, the "5 why's" tshirt design sets the bar high for conference swag!
 <p>The following day the actual coding started. I coached a group of three very curious and determined women. They asked a lot of good questions and did a brilliant job working on their app. I'd recommend coaching beginners as a great excercise to anyone who thinks they know anything about whatever - try to explain that to someone who doesn't have a clue!</a>
 
 <h2>Stop 3: <a href="http://www.railsberry.com/">Railsberry</a></h2>
-<p>The European Rails conference, or conference for curious developers, was the second edition of a spectacular event last year. Think balloons, sun chairs, modern dance preformance, extremely well designed and consistent graphics, animations and decorations inside and outside the venue.</p>
+<p>The European Rails conference, or conference for curious developers, was the second edition of a spectacular event last year. Think balloons, sun chairs, modern dance performance, extremely well designed and consistent graphics, animations and decorations inside and outside the venue.</p>
 
 <p>The venue! It was a 100-year-old horse tram depot in the historic district of Kazimierz. Old tram rails still leading into the entrance gate (rails, ha! finally I crafted a pun, took me over a year of living in England) and a giant pink unicorn to intimidate passers-by. The best variety swag out there - I scored a pair of <a href="http://unerdwear.com/">nerdies</a> and a Go gopher in addition to the rich contents of my speaker's bag, but some people out there were able to collect up to three additional tshirts :)</p>
 {% img left /images/report_from_krakow/railsberry2013_unicorn.jpg 250 The unicorn %}
