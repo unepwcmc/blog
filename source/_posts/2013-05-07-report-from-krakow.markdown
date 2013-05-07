@@ -57,6 +57,8 @@ And BTW, the "5 why's" tshirt design sets the bar high for conference swag!
 
 <p>I gave a talk on the first day of the conference about PostgreSQL in context of the database of endangered species, which is one of the biggest projects we're working on at the moment at WCMC. I wanted to share my excitement about the advanced features of PostgreSQL that we applied to the taxonomic component of our database, namely recursive CTEs and windowing functions. Speaking in front of this amazing crowd was an ultimate adrenaline rush. I was extremely pleased with the reactions I received and the really good questions people asked afterwards.</p>
 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/19554255" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/agnessa/saving-the-elephant-with-slonik" title="Saving the Elephant with Slonik" target="_blank">Saving the Elephant with Slonik</a> </strong> from <strong><a href="http://www.slideshare.net/agnessa" target="_blank">Agnieszka Figiel</a></strong> </div>
+
 <p>On both days of the conference there were lightning talk sessions, which were very rigorously timed by a team armed with a vuvuzela and a speaker-bazooka. Our own CRUG colleague Andrew France made it though!</p>
 
 <p>On the whole, the quality and diversity of Kraków-based events are increasing so rapidly that even as a native I cannot help but be in awe of the potential therein. Well done people!</p>
