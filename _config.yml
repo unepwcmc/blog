@@ -7,7 +7,7 @@ title: UNEP-WCMC Informatics
 subtitle:
 author: UNEP-WCMC Informatics
 simple_search: http://google.com/search
-description: 
+description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -98,7 +98,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-40718895-1
 
 # Facebook Like
 facebook_like: true
