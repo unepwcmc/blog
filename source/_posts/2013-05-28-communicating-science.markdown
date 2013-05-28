@@ -10,8 +10,10 @@ categories:
 
 This was the main issue discussed as my recent visit to Oxford University for a scientific data visualisation workshop.
 
-
-<img src="/images/network_cm.jpg" alt="Where do you prod the model"/>
+{% blockquote %}
+“The matter with human beans," the BFG went on, "is that they is absolutely refusing to believe in anything unless they is actually seeing it right in front of their own schnozzles.” 
+― Roald Dahl, The BFG
+{% endblockquote %}
 
 
 It was a day of short presentations from researchers in the field of <a href='http://www.itrc.org.uk/'>modelling the future of national infrastructure</a> followed by insights from people in the field of data visualisations.  I shared the experiences of UNEP-WCMC in striving to produce visualisations on the web that have real influence and genuinely impact "decision makers".  
