@@ -8,7 +8,7 @@ categories:
 
 <h2>How can scientists make their complicated domain relevant to policy? </h2>
 
-This was the main issue discussed as my recent visit to Oxford University for a scientific data visualisation workshop.
+This was the main issue discussed at my recent visit to Oxford University for a scientific data visualisation workshop.
 
 {% blockquote %}
 “The matter with human beans," the BFG went on, "is that they is absolutely refusing to believe in anything unless they is actually seeing it right in front of their own schnozzles.” 
