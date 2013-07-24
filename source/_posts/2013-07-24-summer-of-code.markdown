@@ -18,7 +18,7 @@ This summer at WCMC we are privileged to be working with two teams of amazing la
 <p style="clear:both">
 {% img right /images/summer_of_code/team_protected_planet.jpg 350 Team ProtectedPlanet %}
 
-<strong>Team ProtectedPlanet:</strong> Patricia Cuppu and Paola Moreno are a volunteer RG SoC team of astonishing spirit and perseverance. They are working on integrating data from the <a href="http://www.protectedplanet.net/">ProtectedPlanet</a> API into a tourism site revolving around exploring protected areas.
+<strong>Team ProtectedPlanet:</strong> Patricia Cupueran and Paola Moreno are a volunteer RG SoC team of astonishing spirit and perseverance. They are working on integrating data from the <a href="http://www.protectedplanet.net/">ProtectedPlanet</a> API into a tourism site revolving around exploring protected areas.
 </p>
 
 <p>
@@ -114,7 +114,7 @@ There are no stupid questions - my friend who works with me says it every single
 </p>
 
 <table align="left" style="width:300px;float:left;margin: 0.5em 1.5em 0.5em 0" class="image">
-<tbody><tr><td>{% img left /images/summer_of_code/patricia.jpg 300 Patricia Cuppu %}</td></tr>
+<tbody><tr><td>{% img left /images/summer_of_code/patricia.jpg 300 Patricia Cupueran %}</td></tr>
 <tr><td class="caption" style="padding:1em;font-style:italic">Patricia gets the "Rocky Balboa" badge for adoption of modular design and solid foundations in C.</td></tr>
 </tbody></table>
 
