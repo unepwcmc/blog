@@ -7,9 +7,8 @@ categories:  ignite projects
 author: Simão Belchior de Castro
 ---
 
-After a very successful <a href="http://informatics.unep-wcmc.org/blog/blog/2012/12/12/informatics-ignite-talks-2012/">
-first edition of our ignite talks in December 2012</a>, we did it again
-last week.
+After a very successful <a href="http://informatics.unep-wcmc.org/blog/blog/2012/12/12/informatics-ignite-talks-2012/">first edition of our ignite talks in December 2012</a>, 
+we did it again last week.
 
 This time around we had nine five minute talks. In these talks we
 presented our latest projects, we covered of the
@@ -36,8 +35,8 @@ share our work and track who is looking at it.
   src="http://speakerdeck.com/assets/embed.js"></script>
 </p>
 
-Next up was <a href="https://coderwall.com/timwilkinson">Tim
-Wilkinson</a> who talked about the challenges of estimation
+Next up was <a href="https://coderwall.com/timwilkinson">Tim Wilkinson</a> who talked
+about the challenges of estimation
 and how we go about doing it at UNEP-WCMC with agile planning.
 
 <p>
@@ -70,7 +69,7 @@ webkitallowfullscreen mozallowfullscreen> </iframe>
 
 In December 2012 <a href="https://coderwall.com/simaob">I</a> talked about the ISIP project.
 In the meantime the project has been renamed Species+ and it's getting
-close to completion. In my talk I introduced the Species+ Website one of
+closer to completion. In my talk I introduced the Species+ Website one of
 the outputs of this project.
 
 <p>
