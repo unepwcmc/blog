@@ -7,7 +7,8 @@ categories: ignite projects
 author: Simão Belchior de Castro
 ---
 
-On the 11th of December 2012 our team prepared a series of Ignite Talks
+On the 11th of December 2012 our team prepared a series of <a
+href="http://en.wikipedia.org/wiki/Ignite_(event)">Ignite Talks</a>
 to show our colleagues at UNEP-WCMC the work that we are doing and how
 we go about doing it.
 
@@ -82,3 +83,7 @@ collected off-line and then syncronised back into a web server.
 
 After Tim's talk Craig Mills has closed the session with a quick glimpse
 into the year of 2013.
+
+<strong>Ignite Talks:</strong> each of our talks lasted for 5 minutes
+  and consisted of 20 slides that transitioned automatically after 15
+seconds.
