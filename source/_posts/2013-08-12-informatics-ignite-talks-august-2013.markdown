@@ -108,7 +108,7 @@ Nevertheless there are ways to try to avoid them or as a last resort to
 find them early on and fix them. <a
 href="https://coderwall.com/adammulligan">Adam Mulligan</a> closed these
 Ignites session talking about
-different types of bugs and how do we handle them at UNEP-WCMC.
+different types of bugs and how we handle them at UNEP-WCMC.
 
 <p>
   <script async class="speakerdeck-embed"
