@@ -11,7 +11,7 @@ After a very successful <a href="http://informatics.unep-wcmc.org/blog/blog/2012
 we did it again last week.
 
 This time around we had nine five minute talks. In these talks we
-presented our latest projects, we covered of the
+presented our latest projects, we covered the
 challenges faced in the development of IT projects, and we introduced 
 ways to overcome the challenges and improve our processes.
 
@@ -107,7 +107,7 @@ Anyone that develops software knows that bugs are inevitable.
 Nevertheless there are ways to try to avoid them or as a last resort to
 find them early on and fix them. <a
 href="https://coderwall.com/adammulligan">Adam Mulligan</a> closed these
-Ignites session talking about
+Ignite sessions talking about
 different types of bugs and how we handle them at UNEP-WCMC.
 
 <p>
