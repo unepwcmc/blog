@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: projects | UNEP-WCMC Informatics]]></title>
+  <link href="http://unepwcmc.github.com/blog/blog/categories/projects/atom.xml" rel="self"/>
+  <link href="http://unepwcmc.github.com/blog/"/>
+  <updated>2014-04-25T14:38:02+01:00</updated>
+  <id>http://unepwcmc.github.com/blog/</id>
+  <author>
+    <name><![CDATA[UNEP-WCMC Informatics]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Informatics Ignite Talks August 2013]]></title>
+    <link href="http://unepwcmc.github.com/blog/blog/2013/08/12/informatics-ignite-talks-august-2013/"/>
+    <updated>2013-08-12T23:15:00+01:00</updated>
+    <id>http://unepwcmc.github.com/blog/blog/2013/08/12/informatics-ignite-talks-august-2013</id>
+    <content type="html"><![CDATA[<p>After a very successful <a href="http://informatics.unep-wcmc.org/blog/blog/2012/12/12/informatics-ignite-talks-2012/">first edition of our ignite talks in December 2012</a>,
+we did it again last week.</p>
+
+<p>This time around we had nine five minute talks. In these talks we
+presented our latest projects, we covered the
+challenges faced in the development of IT projects, and we introduced
+ways to overcome the challenges and improve our processes.</p>
+
+<p><a href="https://coderwall.com/craigmmills">Craig Mills</a> opened the
+session and talked about improving the quality of the tools developed in
+our sector and how we should be passionate about what we do.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+data-id="46de6e20dc270130b7ae26b0e523c7dd" data-ratio="1.33333333333333"
+src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p><a href="https://coderwall.com/deciob">Decio Battaglia</a> did the first
+project related talk. He talked about a URL shortener that allows us to
+share our work and track who is looking at it.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="05397560e3290130e8c63a22532026d5" data-ratio="1.33507170795306"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>Next up was <a href="https://coderwall.com/timwilkinson">Tim Wilkinson</a> who talked
+about the challenges of estimation
+and how we go about doing it at UNEP-WCMC with agile planning.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="579c39f0e19c01301c7a5a37fbc7936a" data-ratio="1.33333333333333"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>The National Reporting Toolkit is one of our most recent projects and <a
+href="https://coderwall.com/th3james">James Cox</a> introduced it to our
+colleagues at UNEP-WCMC.</p>
+
+<p>
+ <script async class="speakerdeck-embed"
+  data-id="c29876b0e31901309a7e42f703aafd03" data-ratio="1.33333333333333"
+  src="http://speakerdeck.com/assets/embed.js"></script> 
+</p>
+
+
+<p>In our day to day work at UNEP-WCMC we always try to "change for the
+better", to <a href="https://en.wikipedia.org/wiki/Kaizen">Kaizen</a>.
+In her talk <a href="https://coderwall.com/agnessa">Agnieszka Figiel</a>
+explained how we can change for the better by taking advantage of slack
+time.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25026890"
+width="100%" height="486" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="max-width:597px;border:1px solid
+#CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen
+webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p></p>
+
+<p>In December 2012 <a href="https://coderwall.com/simaob">I</a> talked about the ISIP project.
+In the meantime the project has been renamed Species+ and it's getting
+closer to completion. In my talk I introduced the Species+ Website one of
+the outputs of this project.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="4c00d9c0e2460130b1370647428f435a" data-ratio="1.41436464088398"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>One other project that we have started developing in 2012 and we aim at
+using in different future applications is named My Polygon and allows
+users to draw polygons on top of web maps and obtain details about the
+underlying layers. <a href="https://coderwall.com/migtorres">Miguel
+Torres</a> our Geospatial Developer gave a talk about this project and
+the how we made sure that we can provide the users with accurate results
+in a very short amount of time.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="7c7d6ce0e30e0130bc3b3e950739397c" data-ratio="1.33507170795306"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p><a href="https://coderwall.com/blancatortajada">Blanca Tortajada
+Perez</a>, our designer in Informatics talked about the importance of
+content strategy, and its central role in the development of our
+projects.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="0ae093b0e32a0130ae543679ef66b301" data-ratio="1.2994923857868"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>Anyone that develops software knows that bugs are inevitable.
+Nevertheless there are ways to try to avoid them or as a last resort to
+find them early on and fix them. <a
+href="https://coderwall.com/adammulligan">Adam Mulligan</a> closed these
+Ignite sessions talking about
+different types of bugs and how we handle them at UNEP-WCMC.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="7aa52de0e19c01308ea766e8cb786a27" data-ratio="1.33333333333333"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>We really enjoyed preparing these talks, and we believe that it is very
+important to show the work that we are developing and how we aim to
+improve our processes. We are more than happy to answer any questions
+that you might have, so feel free to leave a comment or send us an
+email.</p>
+
+<p>We hope to be back in the future with another edition of WCMC's
+Informatics Ignite Talks!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Informatics Ignite Talks 2012]]></title>
+    <link href="http://unepwcmc.github.com/blog/blog/2012/12/12/informatics-ignite-talks-2012/"/>
+    <updated>2012-12-12T13:10:00+00:00</updated>
+    <id>http://unepwcmc.github.com/blog/blog/2012/12/12/informatics-ignite-talks-2012</id>
+    <content type="html"><![CDATA[<p>On the 11th of December 2012 our team prepared a series of <a
+href="http://en.wikipedia.org/wiki/Ignite_(event)">Ignite Talks</a>
+to show our colleagues at UNEP-WCMC the work that we are doing and how
+we go about doing it.</p>
+
+<p>The session started with a talk by our Head of Programme, <a
+href="https://coderwall.com/craigmmills">Craig Mills</a>.
+He talked about our team and work in 2012.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="c9bc7450261e013063e31231381d8149" data-ratio="1.2994923857868"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>Next up was <a href="https://coderwall.com/agnessa">Agnieszka Figiel</a> one
+of our Ruby on Rails Developers. Agnieszka explained how we go about
+delivering excelence.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/15590786"
+width="100%" height="486" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="max-width:597px;border:1px solid
+#CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen
+webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p><a href="https://coderwall.com/simaob">I</a> followed Agnieszka and talked about one of the big projects that we
+started in 2012, the Integrated Species Information Platform. A project
+that is focused in the redevelopment of the species databases maitained
+at UNEP-WCMC, and the creation of new bespoke public facing interfaces
+to explore that data.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="20a2729025c60130f1671231381f54b3" data-ratio="1.33333333333333"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p><a href="https://coderwall.com/th3james">James Cox</a> talked about the <a
+href="http://apesportal.eva.mpg.de/status/tools/dashboard">A.P.E.S. Dashboard</a>.
+This web application was developed in BackboneJS in early 2012 and is a way
+for Governments to decide where to invest their money to protect great
+apes.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="5c36b9802670013063e31231381d8149" data-ratio="1.33333333333333"
+  src="http://unepwcmc.github.com/blog//speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p><a href="https://coderwall.com/decioferreira">Décio Ferreira</a> talked
+about the <a href="http://reddplusdatabase.org/">Voluntary REDD+ Database</a>.
+A tool to provide information to the global community on <a
+href="http://en.wikipedia.org/wiki/United_Nations_REDD_Programme">REDD+</a>
+financing, actions and results, providing the ability to search,
+summarise and visualize data. (Unfortunately his talk is not yet
+available online).</p>
+
+<p style="clear:both">
+  <img class="center" src="/images/ignite_talks_2012/vrd.png" width="550" title="Voluntary REDD+ Database" >
+</p>
+
+
+<p>The last talk of this Ignite Session was done by <a
+href="https://coderwall.com/timwilkinson">Tim Wilkinson</a>. Tim talked
+about the Abu Dhabi Blue Carbon project, our first iPad App. This
+application allows scientist to measure the carbon sequestered by
+coastal habitats like mangroves, seagrass, and others. Data can be
+collected off-line and then syncronised back into a web server.</p>
+
+<p>
+  <script async class="speakerdeck-embed"
+  data-id="5b5fb49025da013063e31231381d8149" data-ratio="1.33333333333333"
+  src="http://speakerdeck.com/assets/embed.js"></script>
+</p>
+
+
+<p>After Tim's talk Craig Mills has closed the session with a quick glimpse
+into the year of 2013.</p>
+
+<p><strong>Ignite Talks:</strong> each of our talks lasted for 5 minutes
+  and consisted of 20 slides that transitioned automatically after 15
+seconds.</p>
+]]></content>
+  </entry>
+  
+</feed>

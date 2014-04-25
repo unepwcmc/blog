@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://unepwcmc.github.com/blog/sitemap.xml 
